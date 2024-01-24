@@ -12,7 +12,7 @@ Bacasime Antique - Content
   --accent-color: #de3f2a;
 }
 
-.container {
+.container.homepage-spacing {
   padding: 110px 0;
 }
 
@@ -20,7 +20,6 @@ Bacasime Antique - Content
   background-color: var(--primary-color);
   border: 1.5px solid var(--accent-color);
   border-radius: 15px;
-  max-width: 45%;
   text-align: center;
   padding: 8px 15px;
 }
@@ -50,4 +49,17 @@ Bacasime Antique - Content
   border: 1px solid white;
   border-radius: 10px;
   color: white;
+}
+
+.img-container {
+  background-color: var(--primary-color);
+  border: 1.5px solid var(--accent-color);
+  border-radius: 15px;
+  display: block;
+  text-align: center;
+  padding: 6px 0;
+}
+img {
+  width: 95%;
+  object-fit: cover;
 }
