@@ -12,12 +12,38 @@ Bacasime Antique - Content
   --accent-color: #de3f2a;
 }
 
+.navbar-bg {
+  background-color: var(--primary-color);
+}
+
+.navbar-logo {
+  max-width: 125px;
+}
+
+#active-color {
+  color: var(--accent-color);
+}
+
+#active-color:hover {
+  color: white;
+}
+
+a.nav-link {
+  color: white;
+  font-family: "Merriweather", sans-serif;
+  font-size: 18px;
+}
+
+a.nav-link:hover {
+  color: var(--accent-color);
+}
+
 .container.homepage-spacing {
   padding: 55px 0;
 }
 
 .intro-container {
-  background-color: var(--primary-color);
+  background-color: var(--secondary-color);
   border: 1.5px solid var(--accent-color);
   border-radius: 15px;
   text-align: center;
@@ -38,9 +64,11 @@ Bacasime Antique - Content
 }
 
 .btn.btn-branding {
-  background-color: var(--secondary-color);
+  background-color: var(--primary-color);
   border-radius: 10px;
   color: white;
+  font-family: "Merriweather", sans-serif;
+  font-size: 18px;
   padding: 10px 25px;
 }
 
@@ -49,17 +77,20 @@ Bacasime Antique - Content
   border: 1px solid white;
   border-radius: 10px;
   color: white;
+  font-family: "Merriweather", sans-serif;
+  font-size: 18px;
 }
 
 .img-container {
-  background-color: var(--primary-color);
+  background-color: var(--secondary-color);
   border: 1.5px solid var(--accent-color);
   border-radius: 15px;
   display: block;
   text-align: center;
   padding: 6px 0;
+  width: 475px;
 }
 img {
-  width: 95%;
+  width: 450px;
   object-fit: cover;
 }
