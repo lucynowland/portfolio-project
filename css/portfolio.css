@@ -5,3 +5,49 @@ Bacasime Antique - Content
 */
 
 @import url("https://fonts.googleapis.com/css2?family=Alegreya:wght@500&family=Bacasime+Antique&family=Merriweather&display=swap");
+
+:root {
+  --primary-color: #f69ba0;
+  --secondary-color: #f9c4cd;
+  --accent-color: #de3f2a;
+}
+
+.container {
+  padding: 110px 0;
+}
+
+.intro-container {
+  background-color: var(--primary-color);
+  border: 1.5px solid var(--accent-color);
+  border-radius: 15px;
+  max-width: 45%;
+  text-align: center;
+  padding: 8px 15px;
+}
+
+.intro-heading {
+  color: white;
+  font-family: "Alegreya", sans-serif;
+  font-size: 55px;
+  line-height: 1.5;
+}
+
+.intro-content {
+  color: white;
+  font-family: "Bacasime Antique", sans-serif;
+  font-size: 30px;
+}
+
+.btn.btn-branding {
+  background-color: var(--secondary-color);
+  border-radius: 10px;
+  color: white;
+  padding: 10px 25px;
+}
+
+.btn.btn-branding:hover {
+  background-color: var(--accent-color);
+  border: 1px solid white;
+  border-radius: 10px;
+  color: white;
+}
