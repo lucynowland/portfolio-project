@@ -103,9 +103,10 @@ footer {
   width: 100%;
 }
 
-.media-links {
+.media-links a {
   bottom: 0;
   color: var(--accent-color);
+  display: inline;
   font-size: 35px;
   position: absolute;
   padding: 10px;
