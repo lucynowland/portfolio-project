@@ -127,6 +127,43 @@ img {
   bottom: 0;
   color: var(--accent-color);
   font-size: 35px;
-  position: absolute;
   padding: 10px;
+}
+
+@media (max-width: 992px) {
+  .img-container {
+    display: none;
+  }
+
+  .skills-heading {
+    font-size: 38px;
+  }
+
+  .selected-skills {
+    margin-right: 247px;
+    font-size: 30px;
+  }
+
+  .skills-container {
+    margin-left: 250px;
+  }
+
+  .skills-icon {
+    width: 175px;
+  }
+
+  .container.media-links {
+    margin-top: 35px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .skills-icon {
+    margin-bottom: 50px;
+    margin-left: 0;
+  }
+
+  .container.media-links {
+    margin-left: 160px;
+  }
 }
