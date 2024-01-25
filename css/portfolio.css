@@ -46,6 +46,7 @@ a.nav-link:hover {
   background-color: var(--secondary-color);
   border: 1.5px solid var(--accent-color);
   border-radius: 15px;
+  box-shadow: 4px 2px 2px lightgray;
   text-align: center;
   padding: 8px 15px;
 }
@@ -85,6 +86,7 @@ a.nav-link:hover {
   background-color: var(--secondary-color);
   border: 1.5px solid var(--accent-color);
   border-radius: 15px;
+  box-shadow: 4px 2px 2px lightgray;
   display: block;
   text-align: center;
   padding: 6px 0;
@@ -93,6 +95,27 @@ a.nav-link:hover {
 img {
   width: 255px;
   object-fit: cover;
+}
+
+.skills-heading {
+  color: var(--accent-color);
+  font-family: "Merriweather", sans-serif;
+  font-size: 24px;
+  text-align: center;
+}
+
+.selected-skills {
+  color: var(--accent-color);
+  font-family: "Bacasime Antique", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.skills-icon {
+  width: 140px;
+  margin-left: 27px;
+  margin-top: 4px;
 }
 
 .container.media-links {
