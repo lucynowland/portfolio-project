@@ -88,10 +88,10 @@ a.nav-link:hover {
   display: block;
   text-align: center;
   padding: 6px 0;
-  width: 475px;
+  width: 300px;
 }
 img {
-  width: 450px;
+  width: 255px;
   object-fit: cover;
 }
 
