@@ -128,6 +128,7 @@ img {
   color: var(--accent-color);
   font-size: 35px;
   padding: 10px;
+  position: absolute;
 }
 
 @media (max-width: 992px) {
