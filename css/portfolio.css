@@ -129,6 +129,48 @@ img {
   font-size: 35px;
 }
 
+.about-section-content {
+  background-color: var(--secondary-color);
+  opacity: 0.75;
+  padding: 55px 20px;
+}
+
+.about-section-content h1 {
+  color: white;
+  font-size: 64px;
+  font-family: "Alegreya", sans-serif;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.about-me-paragraph p {
+  display: block;
+  font-size: 20px;
+  font-family: "Bacasime Antique", sans-serif;
+  margin: 0 auto;
+  max-width: 800px;
+  text-align: center;
+}
+
+.core-values-content h2 {
+  color: var(--primary-color);
+  font-family: "Merriweather", sans-serif;
+  font-size: 26px;
+  text-align: center;
+}
+
+.core-value-one,
+.core-value-four {
+  background-color: var(--secondary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.core-value-two,
+.core-value-three {
+  background-color: var(--primary-color);
+  border: 1px solid var(--secondary-color);
+}
+
 @media (max-width: 992px) {
   #homepage-intro {
     width: 100%;
