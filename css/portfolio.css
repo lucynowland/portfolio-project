@@ -171,6 +171,20 @@ img {
   border: 1px solid var(--secondary-color);
 }
 
+.core-values-heading {
+  color: var(--accent-color);
+  font-family: "Merriweather", sans-serif;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.core-values-desc {
+  color: white;
+  font-size: 20px;
+  font-family: "Bacasime Antique", sans-serif;
+  text-align: center;
+}
+
 @media (max-width: 992px) {
   #homepage-intro {
     width: 100%;
