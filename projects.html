@@ -45,18 +45,16 @@
           id="navbarNavAltMarkup"
         >
           <div class="navbar-nav d-flex">
+            <a class="nav-link" title="Homepage Link" href="index.html">Home</a>
+            <a class="nav-link" href="/about.html" title="About Page Link"
+              >About</a
+            >
             <a
               class="nav-link active"
               id="active-color"
               aria-current="page"
-              title="Homepage Link"
-              href="index.html"
-              >Home</a
-            >
-            <a class="nav-link" href="/about.html" title="About Page Link"
-              >About</a
-            >
-            <a class="nav-link" href="projects.html" title="Projects Page Link"
+              href="projects.html"
+              title="Projects Page Link"
               >Projects</a
             >
             <a class="nav-link" href="contact.html" title="Contact Information"
@@ -66,68 +64,70 @@
         </div>
       </div>
     </nav>
-    <h1>Project Portfolio</h1>
+    <div class="hero-content">
+      <h1>Project Portfolio</h1>
+      <div class="container hero-paragraph">
+        <p>
+          A brief insight into the projects built throughout the SheCodes Max
+          curriculum.
+        </p>
+      </div>
+    </div>
     <div class="container-fluid text-center">
-      <div class="row">
+      <div class="row row-cols-2">
         <div class="col">
-          <div class="projects-desc container-fluid">
+          <div class="project-container">
             <img
               src="images/cinnamon-rolls-project.png"
-              alt="Autumnal Cinnamon Rolls Recipe Project - SheCodes Basics"
-              class="project-images img-fluid"
+              alt="Autumnal Cinnamon Rolls Project"
             />
             <h6>Autumnal Cinnamon Rolls Recipe</h6>
             <p>
               A landing page developed using HTML & CSS outlining detailed
-              ingredient lists and step-by-step instrcutions to bake cinnamon
+              ingredient lists and step-by-step instructions to bake cinnamon
               rolls.
             </p>
           </div>
         </div>
         <div class="col">
-          <div class="projects-desc container-fluid">
+          <div class="project-container">
             <img
               src="images/reading-hobby-project.png"
-              alt="Reading Hobby Project - SheCodes Basics Add-on"
-              class="project-images img-fluid"
+              alt="Reading Hobby Project"
             />
-            <h6>Reading Hobby Project</h6>
+            <h6>Reading Hobby Landing Page</h6>
             <p>
               A landing page developed using advanced HTML & CSS concepts such
-              as: class manipulation, animations & grids depicting the joys of
+              as: class manipulation, animations & grid depicting the joys of
               reading.
             </p>
           </div>
         </div>
-      </div>
-      <div class="row">
         <div class="col">
-          <div class="projects-desc container-fluid">
+          <div class="project-container">
             <img
               src="images/vanilla-weather-app-project.png"
-              alt="Vanilla Weather App Project - SheCodes Plus"
-              class="project-images img-fluid"
+              alt="Vanilla Weather App Project"
             />
             <h6>Vanilla Weather App Project</h6>
             <p>
-              An interactive Vanilla Weather App utilising JavaScript & API
+              An interactive vanilla weather app utilising JavaScript & API
               integration to acquire data from the user's input in order to
               display the week's forecasted weather.
             </p>
           </div>
         </div>
         <div class="col">
-          <div class="projects-desc container-fluid">
+          <div class="project-container">
             <img
               src="images/book-recommendations-project.png"
-              alt="Book Recommendations Generator Project - SheCodes AI Add-On"
-              class="project-images img-fluid"
+              alt="Book Recommendations AI Generator Project"
             />
-            <h6>Book Recommendations Generator</h6>
+            <h6>Book Recommendations AI Generator Project</h6>
             <p>
-              An AI powered generator incorporating API integration and prompt
+              An AI powered generator incorporating API integration & prompt
               engineering to produce a gratifying book recommendation tailored
-              to the user's genre request.
+              to the user's genre request
             </p>
           </div>
         </div>

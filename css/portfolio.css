@@ -129,13 +129,13 @@ img {
   font-size: 35px;
 }
 
-.about-section-content {
+.hero-content {
   background-color: var(--secondary-color);
   opacity: 0.75;
   padding: 55px 20px;
 }
 
-.about-section-content h1 {
+.hero-content h1 {
   color: white;
   font-size: 64px;
   font-family: "Alegreya", sans-serif;
@@ -143,7 +143,7 @@ img {
   text-align: center;
 }
 
-.about-me-paragraph p {
+.hero-paragraph p {
   display: block;
   font-size: 20px;
   font-family: "Bacasime Antique", sans-serif;
@@ -185,6 +185,9 @@ img {
   text-align: center;
 }
 
+.project-images {
+  object-fit: cover;
+}
 @media (max-width: 992px) {
   #homepage-intro {
     width: 100%;
