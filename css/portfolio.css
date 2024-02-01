@@ -192,19 +192,19 @@ img {
 
 .square-project-images {
   border-radius: 8px;
-  box-shadow: 4px 2px 2px lightgray;
+  box-shadow: 2px 2px 2px lightgray;
   width: 475px;
 }
 
 .rectangle-project-images {
   border-radius: 8px;
-  box-shadow: 4px 2px 2px lightgray;
+  box-shadow: 2px 2px 2px lightgray;
   width: 100%;
 }
 
 .project-desc {
   background-color: rgba(249, 196, 205, 0.25);
-  padding: 15px;
+  padding: 35px;
 }
 
 .project-desc h2 {
@@ -218,6 +218,26 @@ img {
   font-family: "Bacasime Antique", sans-serif;
   font-size: 20px;
   text-align: center;
+}
+
+.project-links {
+  text-align: center;
+}
+
+.btn-styling {
+  background-color: var(--accent-color);
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px lightgray;
+  color: white;
+  padding: 15px;
+  text-decoration: none;
+  transition: all 150ms ease-in-out;
+}
+
+.btn-styling:hover {
+  background-color: white;
+  border: 1px solid var(--accent-color);
+  color: var(--accent-color);
 }
 
 @media (max-width: 992px) {
