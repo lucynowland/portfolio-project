@@ -268,4 +268,9 @@ img {
     margin-bottom: 50px;
     margin-left: 0;
   }
+
+  .square-project-images,
+  .rectangle-project-images {
+    display: none;
+  }
 }
