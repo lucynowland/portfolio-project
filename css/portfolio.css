@@ -354,30 +354,10 @@ label {
   .img-container {
     display: none;
   }
+}
 
-  .skills-heading {
-    font-size: 38px;
-  }
-
-  .selected-skills {
-    font-size: 30px;
-  }
-
-  .skills-container {
-    display: inline-block;
-  }
-
-  .container.media-links {
-    margin-top: 35px;
-  }
-
-  .skills-icon {
-    margin-bottom: 50px;
-    margin-left: 0;
-  }
-
-  .square-project-images,
-  .rectangle-project-images {
-    display: none;
+@media (max-width: 575px) {
+  nav ul {
+    display: contents;
   }
 }
