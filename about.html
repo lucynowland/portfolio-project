@@ -30,48 +30,34 @@
     <title>About Lucy Nowland</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-bg">
-      <div class="container-fluid">
+    <div class="nav-container container-fluid">
+      <nav class="d-flex justify-content-between">
         <img
-          src="images/portfolio-logo.png"
-          alt="Portfolio Logo"
-          class="navbar-logo"
+          src="images/large-portfolio-logo.png"
+          alt="Portfolio Project Logo"
+          class="large-logo d-none d-md-block"
         />
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-          class="collapse navbar-collapse justify-content-end"
-          id="navbarNavAltMarkup"
-        >
-          <div class="navbar-nav d-flex">
-            <a class="nav-link" title="Homepage Link" href="index.html">Home</a>
-            <a
-              class="nav-link active"
-              id="active-color"
-              aria-current="page"
-              href="about.html"
-              title="About Page Link"
-              >About</a
-            >
-            <a class="nav-link" href="projects.html" title="Projects Page Link"
-              >Projects</a
-            >
-            <a class="nav-link" href="contact.html" title="Contact Information"
-              >Contact</a
-            >
-          </div>
-        </div>
-      </div>
-    </nav>
+        <img
+          src="images/small-portfolio-logo.png"
+          alt="Portfolio Project Logo"
+          class="small-logo d-block d-md-none"
+        />
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="about.html" class="active">About</a>
+          </li>
+          <li>
+            <a href="projects.html">Projects</a>
+          </li>
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="hero-content mb-4">
       <h1>About Lucy Nowland</h1>
       <div class="container hero-paragraph">

@@ -12,6 +12,47 @@ Bacasime Antique - Content
   --accent-color: #de3f2a;
 }
 
+.nav-container {
+  background-color: var(--primary-color);
+}
+
+.large-logo {
+  max-width: 200px;
+  height: 80px;
+  margin-top: 20px;
+}
+
+.small-logo {
+  max-width: 100px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 120px;
+  margin-left: 15px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-family: "Merriweather", sans-serif;
+  transition: all 150ms ease-in-out;
+}
+
+nav li a:hover {
+  color: var(--accent-color);
+}
+
+nav li a.active {
+  color: var(--accent-color);
+}
+
 .navbar-bg {
   background-color: var(--primary-color);
 }
