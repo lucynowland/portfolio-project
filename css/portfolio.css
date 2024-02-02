@@ -159,17 +159,6 @@ img {
   margin-top: 4px;
 }
 
-.container.media-links {
-  max-width: 100%;
-  margin-left: 210px;
-}
-
-.media-links a {
-  bottom: 0;
-  color: var(--accent-color);
-  font-size: 35px;
-}
-
 .hero-content {
   background-color: var(--secondary-color);
   opacity: 0.75;
@@ -305,6 +294,54 @@ label {
 }
 
 .send-btn:hover {
+  background-color: white;
+  border: 1px solid var(--accent-color);
+  color: var(--accent-color);
+}
+
+.social-links a {
+  background-color: rgba(222, 63, 42, 0.07);
+  border-radius: 50%;
+  color: var(--accent-color);
+  font-size: 30px;
+  margin: 0 25px;
+  padding: 10px 17px;
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
+}
+
+.social-links a:hover {
+  background-color: var(--accent-color);
+  color: white;
+}
+
+.contact-box {
+  background-color: rgba(222, 63, 42, 0.07);
+  padding: 30px 120px;
+  text-align: center;
+}
+
+.contact-box-heading {
+  color: var(--accent-color);
+  font-family: "Alegreya", sans-serif;
+  font-size: 38px;
+}
+
+.contact-box-p {
+  font-family: "Bacasime Antique", sans-serif;
+  font-size: 18px;
+  margin: 0;
+}
+
+.btn.contact-btn {
+  background-color: var(--accent-color);
+  color: white;
+  font-family: "Merriweather", sans-serif;
+  font-size: 18px;
+  padding: 15px 30px;
+}
+
+.btn.contact-btn:hover {
   background-color: white;
   border: 1px solid var(--accent-color);
   color: var(--accent-color);
