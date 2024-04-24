@@ -128,10 +128,15 @@ a.nav-link:hover {
   width: 300px;
 }
 
-img {
+.profile-img {
   border-radius: 1rem;
   width: 285px;
   object-fit: contain;
+}
+
+img {
+  width: 255px;
+  object-fit: cover;
 }
 
 .hero-content {
