@@ -129,8 +129,9 @@ a.nav-link:hover {
 }
 
 img {
-  width: 255px;
-  object-fit: cover;
+  border-radius: 1rem;
+  width: 285px;
+  object-fit: contain;
 }
 
 .hero-content {
@@ -235,8 +236,7 @@ img {
   border-radius: 50%;
   color: white;
   font-size: 30px;
-  margin: 0 25px;
-  margin-bottom: 15px;
+  margin: 30px 25px;
   padding: 10px 17px;
   text-decoration: none;
   transition: all 100ms ease-in-out;
