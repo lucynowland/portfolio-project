@@ -16,14 +16,8 @@ Bacasime Antique - Content
   background-color: var(--primary-color);
 }
 
-.large-logo {
-  max-width: 200px;
-  height: 80px;
-  margin-top: 20px;
-}
-
-.small-logo {
-  max-width: 100px;
+.portfolio-logo {
+  max-width: 6rem;
 }
 
 nav ul {
@@ -55,10 +49,6 @@ nav li a.active {
 
 .navbar-bg {
   background-color: var(--primary-color);
-}
-
-.navbar-logo {
-  max-width: 125px;
 }
 
 #active-color {
